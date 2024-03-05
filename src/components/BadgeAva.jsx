@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Cart from "./Cart";
 import { useSelector } from "react-redux";
 
-function RightHeader() {
+function BadgeAva() {
   const [cart, setCart] = useState(true);
   const bodyEl = document.getElementById("body");
   const prduct = useSelector((state) => state.cart.cartHow);
@@ -48,4 +48,4 @@ function RightHeader() {
   );
 }
 
-export default RightHeader;
+export default BadgeAva;

@@ -1,10 +1,10 @@
 import React from "react";
-import RightHeader from "./RightHeader";
 import Container from "./Container";
 import { styled } from "styled-components";
 import { desktop } from "../utils/Responsive";
 import MobileHeader from "./MobileHeader";
 import Sidebar from "./Sidebar";
+import BadgeAva from "./BadgeAva";
 
 const HeaderStyle = styled.div`
   padding-top: 20px;
@@ -37,7 +37,7 @@ function Header() {
         <HeaderStyle>
           <MobileHeader />
           <Sidebar />
-          <RightHeader />
+          <BadgeAva />
         </HeaderStyle>
       </Container>
     </>
